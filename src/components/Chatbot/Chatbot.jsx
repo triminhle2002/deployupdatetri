@@ -5,7 +5,7 @@ import { useEffect } from "react";
 const Chatbot = (props) => {
   useEffect(() => {
     var chatbox = document.getElementById("fb-customer-chat");
-    chatbox.setAttribute("page_id", "2078121735572443");
+    chatbox.setAttribute("page_id", "227739294418179");
     chatbox.setAttribute("attribution", "biz_inbox");
 
     window.fbAsyncInit = function () {
@@ -28,7 +28,7 @@ const Chatbot = (props) => {
   return (
     <div>
       <div id="fb-root"></div>
-      <div id="fb-customer-chat" calssName="fb-customerchat"></div>
+      <div id="fb-customer-chat" class="fb-customerchat"></div>
     </div>
   );
 };
